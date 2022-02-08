@@ -4,13 +4,9 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        int tipo = 0;
+        boolean tipo = false;
 
-        if (tipo == 0) {
-            UsuariosFichero usuarios = new UsuariosFichero();
-        } else {
-            UsuariosMemoria usuarios = new UsuariosMemoria();
-        }
+        UsuariosMemoria usuarios = new UsuariosMemoria();
 
         crear(usuarios, "Manolo");
         crear(usuarios, "Pepe");
